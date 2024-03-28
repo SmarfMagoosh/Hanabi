@@ -3,12 +3,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Hanabi {
-    public static final int HAND_SIZE = 5;
-
-	private Board boardState;
-	private ArrayList<Player> players;
-	private ArrayList<Hand> hands;
-	private ArrayList<Card> deck;
+	private final Board boardState;
+	private final ArrayList<Player> players;
+	private final ArrayList<Hand> hands;
+	private final ArrayList<Card> deck;
 
 	private int currentPlayer;
 	private int otherPlayer;
@@ -21,7 +19,7 @@ public class Hanabi {
 	public Hanabi(boolean chatty, Player player1, Player player2) {
 		boardState = new Board();
 
-		players = new ArrayList<Player>();
+		players = new ArrayList<>();
 		players.add(player1);
 		players.add(player2);
 
@@ -59,7 +57,7 @@ public class Hanabi {
 				hands.get(1).add(0, c);
 			}
 			catch (Exception e) {
-				System.out.println(e);
+				e.printStackTrace();
 				return;
 			}
 
@@ -122,9 +120,9 @@ public class Hanabi {
 	/**
 	 * Interprets responses from a Player.ask() call and performs appropriate Player.tell...() calls
 	 * @param response The String provided by a Player.ask() call
-	 * @throws Exception In case of malformed Strings
+	 * @throws IllegalArgumentException In case of malformed Strings
 	 */
-	public void parseAndHandleResponse(String response) {
+	public void parseAndHandleResponse(String response) throws IllegalArgumentException {
 		Scanner scn = new Scanner(response);
 		if (!scn.hasNext()) {
 			scn.close();

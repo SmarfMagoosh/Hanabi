@@ -20,19 +20,19 @@ public class Board {
 		numHints = MAX_HINTS;
 		numFuses = MAX_FUSES;
 		deckSize = 50;
-		tableau = new ArrayList<Integer>();
+		tableau = new ArrayList<>();
 		for (int i = 0; i < 5; i++) {
 			tableau.add(0);
 		}
-		discards = new ArrayList<Card>();
+		discards = new ArrayList<>();
 	}
 	
 	public Board(Board b) {
 		this.numHints = b.numHints;
 		this.deckSize = b.deckSize;
 		this.numFuses = b.numFuses;
-		this.tableau = new ArrayList<Integer>(b.tableau);
-		this.discards = new ArrayList<Card>(b.discards);
+		this.tableau = new ArrayList<>(b.tableau);
+		this.discards = new ArrayList<>(b.discards);
 	}
 	
 	@Override
@@ -55,14 +55,14 @@ public class Board {
 	
 	public int getTableauScore() {
 		int total = 0;
-		for (int i = 0; i < tableau.size(); i++) {
-			total += tableau.get(i);
-		}
+        for (Integer integer : tableau) {
+            total += integer;
+        }
 		return total;
 	}
 	
 	public boolean isLegalPlay(Card c) {
-		return (c.value == (tableau.get(c.color) + 1));
+        return (c.value == (tableau.get(c.color) + 1));
 	}
 	
 	public boolean play(Card c) {
@@ -81,5 +81,4 @@ public class Board {
 			return false;
 		}
 	}
-
 }

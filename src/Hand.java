@@ -4,11 +4,11 @@ public class Hand {
 	private ArrayList<Card> cards;
 	
 	public Hand() {
-		cards = new ArrayList<Card>();
+		cards = new ArrayList<>();
 	}
 	
 	public Hand(Hand h) {
-		cards = new ArrayList<Card>(h.cards);
+		cards = new ArrayList<>(h.cards);
 	}
 	
 	public Card get(int index) {
@@ -64,17 +64,17 @@ public class Hand {
 			return cards.get(0).toString() + " and " + cards.get(1).toString();
 		}
 		else {
-			String result = "";
+			StringBuilder result = new StringBuilder();
 			for (int i = 0; i < cards.size(); i++) {
-				result += cards.get(i).toString();
+				result.append(cards.get(i).toString());
 				if (i < cards.size() - 1) {
-					result += ", ";
+					result.append(", ");
 				}
 				if (i == cards.size() - 2) {
-					result += "and ";
+					result.append("and ");
 				}
 			}
-			return result;
+			return result.toString();
 		}
 	}
 	
@@ -90,7 +90,6 @@ public class Hand {
 	@Override
 	public int hashCode() {
 		int result = 1;
-
 		for (Card c: cards) {
 			result = 31 * result + c.hashCode();
 		}

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- * @author You
+ * @author Evan Dreher, Caleb Frey
  *
  */
 public class Player {

@@ -45,7 +45,6 @@ public class CardKnowledge {
         options.removeIf(crd -> crd.value != val);
     }
 
-
     public void eliminateColor(int clr){
         options.removeIf(crd -> crd.color == clr);
     }
