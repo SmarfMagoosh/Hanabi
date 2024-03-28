@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a97baae-f839-40b5-8a3f-a72d6a2e5632" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.bsp/sbt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/dictionaries/DREHEREN20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaMath/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaMath/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/modules/ScalaMath-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/modules/ScalaMath.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/scala_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaMath/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$31102dd7ccf3abbda3b5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$31102dd7ccf3abbda3b5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$31102dd7ccf3abbda3b5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$60b4a550b29f83802fa2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$60b4a550b29f83802fa2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$60b4a550b29f83802fa2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$c0945db90886bc8ff3c3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$c0945db90886bc8ff3c3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$c0945db90886bc8ff3c3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$d985d8a2bf6db9053cfc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$d985d8a2bf6db9053cfc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/config-classes/$d985d8a2bf6db9053cfc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/scala-2.12/sbt-1.0/sync/copy-resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/bspReporter/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/scalacOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/src/main/scala/ScalaMath.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/.history3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCosecant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCosecant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCosine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCosine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCotangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcCotangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcSecant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcSecant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcSine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcSine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcTangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ArcTangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Composite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Composite.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Constant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cosecant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cosecant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cosine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cosine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cotangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Cotangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Erf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Erf.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Exponential.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Exponential.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Function.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCosecant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCosecant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCosine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCosine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCotangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicCotangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicSecant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicSecant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicSine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicSine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicTangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/HyperbolicTangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Line.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Log.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Polynomial.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Product.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ScalaMath$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ScalaMath$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/ScalaMath$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Scalar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Scalar.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Secant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Secant.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Sine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Sine.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Sum.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Tangent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Tangent.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Tetration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/Tetration.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/classes/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/update/update_cache_3/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/scala-3.2.2/update/update_cache_3/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/scalacOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/test/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/test/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaMath/target/streams/test/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$bd6fbf2bb037f25de8d8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$bd6fbf2bb037f25de8d8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$bd6fbf2bb037f25de8d8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$f283dff6d058125268ba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$f283dff6d058125268ba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/config-classes/$f283dff6d058125268ba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/sync/copy-resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/_global/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/csrConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/csrProject/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/ivyConfiguration/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/ivySbt/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/moduleSettings/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/projectDescriptors/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/scalaCompilerBridgeScope/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/_global/update/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/bspReporter/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compile/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/scalacOptions/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/compile/unmanagedJars/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/internalDependencyClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedClasspath/_global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedClasspath/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/target/streams/runtime/unmanagedJars/_global/streams/export" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2eKAFEOIZigHLMHNKkUshDGy5J6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a97baae-f839-40b5-8a3f-a72d6a2e5632" name="Changes" comment="" />
+      <created>1711642790854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711642790854</updated>
+    </task>
+    <servers />
+  </component>
+</project>
