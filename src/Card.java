@@ -1,5 +1,3 @@
-
-
 public class Card implements Comparable<Card> {
 	public static final int MIN_VALUE = 1;
 	public static final int MAX_VALUE = 5;
@@ -24,11 +22,10 @@ public class Card implements Comparable<Card> {
 	
 	@Override
 	public boolean equals(Object o) {
-		if (!(o instanceof Card)) {
+		if (!(o instanceof Card c)) {
 			return false;
 		}
-		Card c = (Card) o;
-		return (this.color == c.color) && (this.value == c.value);
+        return (this.color == c.color) && (this.value == c.value);
 	}
 
 	@Override

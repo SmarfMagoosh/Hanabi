@@ -5,14 +5,16 @@ import java.util.Set;
  * Tracks possible values for one unknown card
  */
 public class CardKnowledge {
-    private Set<Card> options;
+    public boolean beenHinted;
 
+    private final Set<Card> options;
 
     /**
      * Allow all possible cards
      */
     public CardKnowledge(){
         this(null);
+        beenHinted = false;
     }
 
     /**
@@ -118,4 +120,7 @@ public class CardKnowledge {
         }
         return true;
     }
+
+    // implement an isunique
+
 }

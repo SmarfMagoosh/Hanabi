@@ -361,7 +361,6 @@ public class Hanabi {
 	 */
 	public boolean gameEnded() {
 		return (boardState.numFuses <= 0) || (deck.size() == 0) || (boardState.getTableauScore() == 25);
-
 	}
 
 }

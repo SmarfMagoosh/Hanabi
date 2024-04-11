@@ -3,7 +3,7 @@ import java.util.Collections;
 
 /**
  * Represents the Hanabi game state that is visible to the players.
- *
+ * <p>
  * This includes the number of fuses, number of cards in the deck, number of hints,
  * the tableau, and the discards.
  */
@@ -54,11 +54,7 @@ public class Board {
 	}
 	
 	public int getTableauScore() {
-		int total = 0;
-        for (Integer integer : tableau) {
-            total += integer;
-        }
-		return total;
+        return tableau.stream().reduce(Integer::sum).orElse(0);
 	}
 	
 	public boolean isLegalPlay(Card c) {
