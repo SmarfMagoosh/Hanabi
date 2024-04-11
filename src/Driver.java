@@ -3,9 +3,26 @@ import java.util.stream.IntStream;
 public class Driver {
 	public static void main(String[] args) {
         // TODO: Change from ConsolePlayer to Player after you have an implementation
-        Hanabi game = new Hanabi(true, new Player(), new Player());
-        game.play();
-        //System.out.println(simulateGames(1000, false));
+		boolean trials = false;
+		boolean oneRun = true;
+		if (oneRun) {
+			Hanabi game = new Hanabi(true, new Player(), new Player());
+			game.play();
+		} else {
+			if (!trials) {
+				int out = -1;
+				while (out != 0) {
+					System.out.println("STARTING");
+					Hanabi game = new Hanabi(true, new Player(), new Player());
+					out = game.play();
+				}
+
+			} else {
+				System.out.println(simulateGames(1000, false));
+			}
+		}
+
+
 	}
 
 	/**

@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
+import java.util.*;
 import java.util.stream.IntStream;
 
 /**
@@ -11,15 +9,30 @@ public class Player {
 	// what I know about my cards
     final ArrayList<CardKnowledge> knowledge;
 
+
     // what I know my partner knows about their cards
     final ArrayList<CardKnowledge> partnerKnowledge;
 
+    final HashMap<Card, Integer> remaining;
     private int nextPlay;
+    private boolean firstRun;
 
     /**
 	 * This default constructor should be the only constructor you supply.
 	 */
 	public Player() {
+        firstRun = false;
+        remaining = new HashMap<>();
+        for (int i = 0; i < 5; i++) {
+            for (int j = 1; j < 6; j++) {
+                switch (j) {
+                    case 1 -> remaining.put(new Card(i, j), 3);
+                    case 5 -> remaining.put(new Card(i, j), 1);
+                    default -> remaining.put(new Card(i, j), 2);
+                }
+            }
+        }
+        System.out.println(remaining);
         nextPlay = -1;
         knowledge = new ArrayList<>();
         partnerKnowledge = new ArrayList<>();
@@ -48,6 +61,8 @@ public class Player {
             int drawIndex,
             Hand finalHand,
             Board boardState) {
+        remaining.put(draw, remaining.get(draw) - 1);
+
         partnerKnowledge.remove(disIndex);
         partnerKnowledge.add(0, new CardKnowledge());
 	}
@@ -67,6 +82,7 @@ public class Player {
             boolean drawSucceeded,
             Board boardState) {
         // TODO: update card knowledge
+        remaining.put(discard, remaining.get(discard) - 1);
         knowledge.remove(disIndex);
         knowledge.add(0, new CardKnowledge());
 	}
@@ -92,6 +108,7 @@ public class Player {
             boolean wasLegalPlay,
             Board boardState) {
         // TODO: update card knowledge
+        remaining.put(draw, remaining.get(draw) - 1);
         partnerKnowledge.remove(playIndex);
         partnerKnowledge.add(0, new CardKnowledge());
     }
@@ -114,6 +131,7 @@ public class Player {
             boolean wasLegalPlay,
             Board boardState) {
         // TODO: update card knowledge
+        remaining.put(play, remaining.get(play) - 1);
         knowledge.remove(playIndex);
         knowledge.add(0, new CardKnowledge());
 
@@ -131,7 +149,18 @@ public class Player {
             ArrayList<Integer> indices,
             Hand partnerHand,
             Board boardState) {
-        nextPlay = indices.get(0);
+        boolean warn_hint = false;
+        for (Integer i : indices) {
+            if (knowledge.get(i).getKnownValue() == 1) {
+                warn_hint = true;
+            }
+        }
+        if (!warn_hint) {
+            nextPlay = indices.get(0);
+        }
+        updateKnowledgeColorHint(color, indices, boardState, knowledge);
+	}
+	public void updateKnowledgeColorHint(int color, ArrayList<Integer> indices, Board boardState, ArrayList<CardKnowledge> knowledge) {
         for (int i = 0; i < 5; i++) {
             if (indices.contains(i)) {
                 knowledge.get(i).knowColor(color);
@@ -139,8 +168,7 @@ public class Player {
                 knowledge.get(i).eliminateColor(color);
             }
         }
-	}
-	
+    }
 	/**
 	 * This method runs whenever your partner gives you a hint as to the numbers on your cards.
 	 * @param number The number hinted, from 1-5.
@@ -154,6 +182,9 @@ public class Player {
             Hand partnerHand,
             Board boardState) {
         nextPlay = indices.get(0);
+        updateKnowledgeNumberHint(number, indices, boardState, knowledge);
+	}
+	public void updateKnowledgeNumberHint(int number, ArrayList<Integer> indices, Board boardState, ArrayList<CardKnowledge> knowledge) {
         for (int i = 0; i < 5; i++) {
             if (indices.contains(i)) {
                 knowledge.get(i).beenHinted = true;
@@ -169,8 +200,7 @@ public class Player {
                 }
             }
         }
-	}
-	
+    }
 	/**
 	 * This method runs when the game asks you for your next move.
 	 * @param yourHandSize How many cards you have in hand.
@@ -192,43 +222,23 @@ public class Player {
 	 *     his cards have that color, or if no hints remain. This command consumes a hint.
 	 */
 	public String ask(int yourHandSize, Hand partnerHand, Board boardState) {
+        System.out.println("REMAINING CARDS: " + remaining);
+        if (firstRun) {
+            for (int i = 0; i < 5; i++) {
+                Card c = partnerHand.get(i);
+                remaining.put(c, remaining.get(c) - 1);
+            }
+            firstRun = false;
+        }
+
         // play left discard right
         boolean spare_fuses = boardState.numFuses != 1;
-        if (nextPlay >= 0) {
-            int temp = nextPlay;
-            nextPlay = -1;
-            return "PLAY " + temp + " 0";
+        if (spare_fuses) {
+            return greedyAsk(yourHandSize, partnerHand, boardState);
+        } else {
+            // TODO change to safe ask
+            return greedyAsk(yourHandSize, partnerHand, boardState);
         }
-
-        for (int i = 0; i < 5; i++) {
-            Card c = partnerHand.get(i);
-            boolean first_number = true;
-            boolean first_color = true;
-            for (int j = 0; j < i; j++) {
-                if (partnerHand.get(j).value == c.value) {
-                    first_number = false;
-                }
-                if (partnerHand.get(j).color == c.color) {
-                    first_color = false;
-                }
-            }
-            if (boardState.isLegalPlay(c) && first_number && boardState.numHints > 0) {
-                return "NUMBERHINT " + c.value;
-            }
-            if (boardState.isLegalPlay(c) && first_color && boardState.numHints > 0) {
-                return "COLORHINT " + c.color;
-            }
-        }
-
-        for (int i = 0; i < 5; i++) {
-            CardKnowledge know = knowledge.get(i);
-            if (know.getKnownValue() == 1 && know.getKnownColor() == -1 || know.isDefinitelyPlayable(boardState)) {
-                return "PLAY " + i + " 0";
-            } else if (know.getKnownValue() == 1) {
-                return "DISCARD " + i + " 0";
-            }
-        }
-        return "DISCARD " + getYourChopBlock() + " 0";
 	}
 
     // EXTRA METHODS
@@ -244,5 +254,88 @@ public class Player {
             if (!partnerKnowledge.get(i).beenHinted) { return i; }
         }
         return -1;
+    }
+
+    public String safeAsk(int yourHandSize, Hand partnerHand, Board boardState) {
+        return "";
+    }
+
+    public String greedyAsk(int yourHandSize, Hand partnerHand, Board boardState) {
+
+        for (int i = 0; i < 5; i++) {
+            CardKnowledge know = partnerKnowledge.get(i);
+            if (
+                    know.getKnownValue() == 1 && know.getKnownColor() == -1 &&
+                            !boardState.isLegalPlay(partnerHand.get(i)) &&
+                            boardState.numHints > 0
+            ) {
+                ArrayList<Integer> indices = new ArrayList<>();
+                for (int j = 0; j < 5; j++) {
+                    if (partnerHand.get(j).color == partnerHand.get(i).color) {
+                        indices.add(j);
+                    }
+                }
+                updateKnowledgeColorHint(partnerHand.get(i).color, indices, boardState, partnerKnowledge);
+                return "COLORHINT " + partnerHand.get(i).color;
+            }
+        }
+
+
+        if (nextPlay >= 0) {
+            int temp = nextPlay;
+            nextPlay = -1;
+            return "PLAY " + temp + " 0";
+        }
+
+        for (int i = 0; i < 5; i++) {
+            if (knowledge.get(i).isDiscardable(boardState)) {
+                return "DISCARD " + i + " 0";
+            }
+        }
+
+        for (int i = 0; i < 5; i++) {
+            Card c = partnerHand.get(i);
+            boolean first_number = true;
+            boolean first_color = true;
+            for (int j = 0; j < i; j++) {
+                if (partnerHand.get(j).value == c.value) {
+                    first_number = false;
+                }
+                if (partnerHand.get(j).color == c.color) {
+                    first_color = false;
+                }
+            }
+            if (boardState.isLegalPlay(c) && first_number && boardState.numHints > 0) {
+                ArrayList<Integer> indices = new ArrayList<>();
+                for (int j = 0; j < 5; j++) {
+                    if (partnerHand.get(j).value == c.value) {
+                        indices.add(j);
+                    }
+                }
+                updateKnowledgeNumberHint(c.value, indices, boardState, partnerKnowledge);
+                return "NUMBERHINT " + c.value;
+            }
+            if (boardState.isLegalPlay(c) && first_color && boardState.numHints > 0) {
+                ArrayList<Integer> indices = new ArrayList<>();
+                for (int j = 0; j < 5; j++) {
+                    if (partnerHand.get(j).color == c.color) {
+                        indices.add(j);
+                    }
+                }
+                updateKnowledgeColorHint(c.color, indices, boardState, partnerKnowledge);
+                return "COLORHINT " + c.color;
+            }
+        }
+
+        for (int i = 0; i < 5; i++) {
+            CardKnowledge know = knowledge.get(i);
+            if (know.getKnownValue() == 1 && know.getKnownColor() == -1 || know.isDefinitelyPlayable(boardState)) {
+                return "PLAY " + i + " 0";
+            } else if (know.getKnownValue() == 1) {
+                return "DISCARD " + i + " 0";
+            }
+        }
+
+        return "DISCARD " + getYourChopBlock() + " 0";
     }
 }

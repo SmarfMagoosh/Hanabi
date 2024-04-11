@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a97baae-f839-40b5-8a3f-a72d6a2e5632" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardKnowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardKnowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Hanabi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Hanabi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hanabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hanabi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
-    <list id="44de125b-ae99-4305-ad5a-4a2e46c87411" name="Changes by calebfrey" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CardKnowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardKnowledge.java" afterDir="false" />
+    <list id="44de125b-ae99-4305-ad5a-4a2e46c87411" name="Changes by calebfrey" comment="" />
+    <list id="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" name="Changes by DREHEREN20" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Hanabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hanabi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,35 +27,55 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="4798" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;freycp20&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="923fa411-9b9c-4972-9fe1-b4dd4009555e" />
+        <option name="url" value="https://github.com/SmarfMagoosh/Hanabi.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Player.java">
+    <file path="$PROJECT_DIR$/src/Hanabi.java">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="2" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="2" end1="2" start2="3" end2="4" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="8" end1="10" start2="10" end2="12" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="11" end1="11" start2="13" end2="17" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="12" end1="13" start2="18" end2="19" changelist="44de125b-ae99-4305-ad5a-4a2e46c87411" />
-        <range start1="16" end1="17" start2="22" end2="30" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="29" end1="32" start2="42" end2="52" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="42" end1="44" start2="62" end2="71" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="57" end1="62" start2="84" end2="97" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="73" end1="75" start2="108" end2="118" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="76" end1="79" start2="119" end2="120" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="87" end1="89" start2="128" end2="141" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="98" end1="100" start2="150" end2="171" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="123" end1="126" start2="194" end2="231" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="128" end1="128" start2="233" end2="247" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="78" end1="79" start2="78" end2="79" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="90" end1="90" start2="90" end2="91" changelist="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" />
+        <range start1="179" end1="180" start2="180" end2="181" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="235" end1="236" start2="236" end2="237" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="271" end1="272" start2="272" end2="273" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="315" end1="316" start2="316" end2="317" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/src/CardKnowledge.java">
+    <file path="$PROJECT_DIR$/src/Player.java">
       <ranges>
-        <range start1="7" end1="8" start2="7" end2="8" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="9" end1="9" start2="9" end2="10" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="15" end1="15" start2="16" end2="17" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="120" end1="120" start2="122" end2="125" changelist="44de125b-ae99-4305-ad5a-4a2e46c87411" />
+        <range start1="0" end1="3" start2="0" end2="1" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="13" end1="13" start2="11" end2="12" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="16" end1="16" start2="15" end2="16" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="17" end1="17" start2="17" end2="18" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="22" end1="22" start2="23" end2="35" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="50" end1="50" start2="63" end2="65" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="69" end1="69" start2="84" end2="85" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="94" end1="94" start2="110" end2="111" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="116" end1="116" start2="133" end2="134" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="133" end1="134" start2="151" end2="163" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="141" end1="143" start2="170" end2="171" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="156" end1="156" start2="184" end2="187" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="171" end1="173" start2="202" end2="203" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="194" end1="194" start2="224" end2="233" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="196" end1="231" start2="235" end2="241" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
+        <range start1="247" end1="247" start2="257" end2="340" changelist="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" />
       </ranges>
     </file>
   </component>
@@ -64,22 +85,56 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eKAFEOIZigHLMHNKkUshDGy5J6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/Users/DREHEREN20/OneDrive - Grove City College/Desktop/Stuff/school/GitHub/Hanabi/Hanabi",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Driver.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DREHEREN20/OneDrive - Grove City College/Desktop/Stuff/school/GitHub/Hanabi/Hanabi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="Hanabi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ScalaProjectSettings">
     <option name="scala3DisclaimerShown" value="true" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-be841094" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,7 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711642790854</updated>
+      <workItem from="1712811799611" duration="2842000" />
+      <workItem from="1712814731792" duration="2748000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -76,7 +76,7 @@ public class Hanabi {
 	public int play() {
 		
 		if (chatty) {
-			System.out.println("Player 0 hand: " + hands.get(0));
+			System.out.println("\nPlayer 0 hand: " + hands.get(0));
 			System.out.println("Player 1 hand: " + hands.get(1));
 			System.out.println("Board state: \n" + boardState);
 		}
@@ -88,6 +88,7 @@ public class Hanabi {
 			parseAndHandleResponse(response);
 			if (gameEnded()) {
 				if (boardState.numFuses <= 0) {
+                    System.out.println("Ran out of fuses :(");
 					if (chatty) {
 						System.out.println("Ran out of fuses; Score: 0");
 					}
@@ -177,7 +178,7 @@ public class Hanabi {
                     if (!legalPlay) {
                         System.out.println("The play is illegal; removing a fuse.");
                     }
-                    System.out.println("Player 0 hand: " + hands.get(0));
+                    System.out.println("\nPlayer 0 hand: " + hands.get(0));
                     System.out.println("Player 1 hand: " + hands.get(1));
                     System.out.println("Board state: \n" + boardState);
                 }
@@ -233,7 +234,7 @@ public class Hanabi {
                     } else {
                         System.out.println(" and cannot draw because the deck is empty.");
                     }
-                    System.out.println("Player 0 hand: " + hands.get(0));
+                    System.out.println("\nPlayer 0 hand: " + hands.get(0));
                     System.out.println("Player 1 hand: " + hands.get(1));
                     System.out.println("Board state: \n" + boardState);
                 }
@@ -269,7 +270,7 @@ public class Hanabi {
                 if (chatty) {
                     System.out.println("Player " + currentPlayer + " hints the number " + number + " for indices "
                             + indices);
-                    System.out.println("Player 0 hand: " + hands.get(0));
+                    System.out.println("\nPlayer 0 hand: " + hands.get(0));
                     System.out.println("Player 1 hand: " + hands.get(1));
                     System.out.println("Board state: \n" + boardState);
                 }
@@ -313,7 +314,7 @@ public class Hanabi {
                 if (chatty) {
                     System.out.println("Player " + currentPlayer + " hints the color " + Colors.suitColor(color) +
                             " for indices " + indices);
-                    System.out.println("Player 0 hand: " + hands.get(0));
+                    System.out.println("\nPlayer 0 hand: " + hands.get(0));
                     System.out.println("Player 1 hand: " + hands.get(1));
                     System.out.println("Board state: \n" + boardState);
                 }
