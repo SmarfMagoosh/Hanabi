@@ -88,7 +88,6 @@ public class Hanabi {
 			parseAndHandleResponse(response);
 			if (gameEnded()) {
 				if (boardState.numFuses <= 0) {
-                    System.out.println("Ran out of fuses :(");
 					if (chatty) {
 						System.out.println("Ran out of fuses; Score: 0");
 					}

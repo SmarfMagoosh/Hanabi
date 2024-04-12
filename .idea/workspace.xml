@@ -7,18 +7,14 @@
     <list default="true" id="9a97baae-f839-40b5-8a3f-a72d6a2e5632" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Hanabi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Hanabi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hanabi/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hanabi/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardKnowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardKnowledge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hanabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hanabi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <list id="44de125b-ae99-4305-ad5a-4a2e46c87411" name="Changes by calebfrey" comment="" />
-    <list id="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" name="Changes by DREHEREN20" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Hanabi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hanabi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,38 +42,6 @@
         <option name="url" value="https://github.com/SmarfMagoosh/Hanabi.git" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Hanabi.java">
-      <ranges>
-        <range start1="78" end1="79" start2="78" end2="79" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="90" end1="90" start2="90" end2="91" changelist="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" />
-        <range start1="179" end1="180" start2="180" end2="181" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="235" end1="236" start2="236" end2="237" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="271" end1="272" start2="272" end2="273" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="315" end1="316" start2="316" end2="317" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Player.java">
-      <ranges>
-        <range start1="0" end1="3" start2="0" end2="1" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="13" end1="13" start2="11" end2="12" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="16" end1="16" start2="15" end2="16" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="17" end1="17" start2="17" end2="18" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="22" end1="22" start2="23" end2="35" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="50" end1="50" start2="63" end2="65" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="69" end1="69" start2="84" end2="85" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="94" end1="94" start2="110" end2="111" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="116" end1="116" start2="133" end2="134" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="133" end1="134" start2="151" end2="163" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="141" end1="143" start2="170" end2="171" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="156" end1="156" start2="184" end2="187" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="171" end1="173" start2="202" end2="203" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="194" end1="194" start2="224" end2="233" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="196" end1="231" start2="235" end2="241" changelist="9a97baae-f839-40b5-8a3f-a72d6a2e5632" />
-        <range start1="247" end1="247" start2="257" end2="340" changelist="bd5f3f6b-d5d1-40fd-9aab-9d0152280d07" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

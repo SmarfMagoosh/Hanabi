@@ -1,28 +1,18 @@
-import java.util.stream.IntStream;
-
 public class Driver {
 	public static void main(String[] args) {
-        // TODO: Change from ConsolePlayer to Player after you have an implementation
-		boolean trials = false;
-		boolean oneRun = true;
-		if (oneRun) {
-			Hanabi game = new Hanabi(true, new Player(), new Player());
-			game.play();
-		} else {
-			if (!trials) {
-				int out = -1;
-				while (out != 0) {
-					System.out.println("STARTING");
-					Hanabi game = new Hanabi(true, new Player(), new Player());
-					out = game.play();
-				}
-
-			} else {
-				System.out.println(simulateGames(1000, false));
-			}
-		}
-
-
+        int[] distribution = new int[26];
+        for (int j = 0; j < 5000; j++) {
+            Hanabi game = new Hanabi(false, new Player(), new Player());
+            int score = game.play();
+            distribution[score]++;
+        }
+        for (int i = 0; i < distribution.length; i++) {
+            System.out.print(i + ":\t");
+            for (int j = 0; j < distribution[i]; j+=10) {
+                System.out.print("|");
+            }
+            System.out.print("\n");
+        }
 	}
 
 	/**

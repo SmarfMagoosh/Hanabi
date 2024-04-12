@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -121,6 +122,15 @@ public class CardKnowledge {
         return true;
     }
 
-    // implement an isunique
-
+    public double probablyPlayable(HashMap<Card, Integer> remaining, Board b) {
+        int totalOptions = 0;
+        int playableOptions = 0;
+        for (Card option : options) {
+            if (b.isLegalPlay(option)) {
+                playableOptions += remaining.get(option);
+            }
+            totalOptions += remaining.get(option);
+        }
+        return 1.0 * playableOptions / totalOptions;
+    }
 }
